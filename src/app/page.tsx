@@ -123,6 +123,7 @@ export default function Home() {
         <section id="concepto" className="bg-amam-mint scroll-mt-16">
           <div className="grid lg:grid-cols-2">
             <div className="px-4 sm:px-6 lg:px-16 xl:pl-[max(4rem,calc((100vw-80rem)/2+2rem))] py-20 lg:py-28 flex flex-col justify-center">
+              <Image src="/brand/a11-oscuro.png" alt="A11" width={320} height={182} className="h-10 w-auto mb-6 self-start" />
               <p className="eyebrow text-amam-forest">El concepto</p>
               <h2 className="mt-4 font-serif text-4xl sm:text-5xl lg:text-6xl leading-[1.05]">
                 Más espacio.
@@ -349,7 +350,10 @@ export default function Home() {
       <footer className="bg-amam-ink text-amam-cream/70">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col md:flex-row gap-6 md:items-center justify-between">
           <div>
-            <p className="font-serif text-3xl text-amam-cream">Amam</p>
+            <div className="flex items-center gap-3">
+              <p className="font-serif text-3xl text-amam-cream">Amam</p>
+              <Image src="/brand/a11-claro.png" alt="A11" width={320} height={182} className="h-7 w-auto" />
+            </div>
             <p className="mt-1 text-sm">San Ramón Norte, Mérida, Yucatán</p>
           </div>
           <div className="text-sm md:text-right">

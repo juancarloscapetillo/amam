@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
 const LINKS = [
@@ -33,8 +34,9 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <a href="#top" className="font-serif text-3xl text-amam-cream leading-none">
-            Amam
+          <a href="#top" className="flex items-center gap-3">
+            <span className="font-serif text-3xl text-amam-cream leading-none">Amam</span>
+            <Image src="/brand/a11-claro.png" alt="A11" width={320} height={182} className="h-6 lg:h-7 w-auto" priority />
           </a>
 
           <nav className="hidden lg:flex items-center gap-8">
