@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Amam — 11 residencias exclusivas en San Ramón Norte, Mérida | MID OBRAS",
   description:
-    "Amam: 11 casas independientes en San Ramón Norte, Mérida, sin régimen de condominio. 184 m² de construcción, 186 m² de terreno, 3 recámaras, 3.5 baños y alberca propia. Entrega abril 2027.",
+    "Amam: 11 casas independientes en San Ramón Norte, Mérida, sin régimen de condominio. 184 m² de construcción, 186 m² de terreno, 3 recámaras, 3.5 baños y alberca propia. Entrega junio 2027.",
   openGraph: {
     title: "Amam · San Ramón Norte",
     description: "11 residencias exclusivas sin régimen de condominio en el norte de Mérida, Yucatán.",

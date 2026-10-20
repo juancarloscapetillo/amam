@@ -12,7 +12,7 @@ Landing page de **Amam** · 11 residencias exclusivas en San Ramón Norte, Méri
 
 | Variable | Uso |
 |---|---|
-| `NEXT_PUBLIC_WHATSAPP_NUMBER` | Número de WhatsApp de ventas con lada de país (ej. `5299XXXXXXXX`). Se lee en build. |
+| `NEXT_PUBLIC_WHATSAPP_NUMBER` | Número de WhatsApp de ventas con lada de país. Opcional: si no está definido se usa `529991910648`. Se lee en build. |
 
 ## Desarrollo local
 

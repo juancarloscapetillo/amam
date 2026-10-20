@@ -18,7 +18,8 @@ import {
 import Navbar from "@/components/Navbar";
 import ContactForm from "@/components/ContactForm";
 
-const WHATSAPP_NUMBER = (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "").replace(/\D/g, "");
+// Número de ventas por defecto; NEXT_PUBLIC_WHATSAPP_NUMBER lo sobrescribe si está definido en el build.
+const WHATSAPP_NUMBER = (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "529991910648").replace(/\D/g, "");
 
 const STATS = [
   { value: "184 m²", label: "de construcción" },
@@ -327,7 +328,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28 grid lg:grid-cols-2 gap-12 items-center">
               <div className="text-white">
                 <p className="eyebrow text-white/90">Fecha de entrega</p>
-                <p className="mt-2 font-serif text-6xl sm:text-7xl lg:text-8xl">Abril 2027</p>
+                <p className="mt-2 font-serif text-6xl sm:text-7xl lg:text-8xl">Junio 2027</p>
                 <h2 className="mt-10 font-serif text-3xl sm:text-4xl leading-tight">
                   Solo 11 casas.
                   <br />
