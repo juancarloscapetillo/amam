@@ -23,7 +23,7 @@ const WHATSAPP_NUMBER = (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "52999191064
 
 const STATS = [
   { value: "184 m²", label: "de construcción" },
-  { value: "186 m²", label: "de terreno" },
+  { value: "187 m²", label: "de terreno" },
   { value: "3", label: "recámaras" },
   { value: "3.5", label: "baños" },
 ];
