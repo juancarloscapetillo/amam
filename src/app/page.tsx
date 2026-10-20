@@ -21,8 +21,8 @@ import ContactForm from "@/components/ContactForm";
 const WHATSAPP_NUMBER = (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "").replace(/\D/g, "");
 
 const STATS = [
-  { value: "178 m²", label: "de construcción" },
-  { value: "205 m²", label: "de terreno" },
+  { value: "184 m²", label: "de construcción" },
+  { value: "186 m²", label: "de terreno" },
   { value: "3", label: "recámaras" },
   { value: "3.5", label: "baños" },
 ];
